@@ -7,6 +7,7 @@ const routes = {
   "cloudflare-docker-proxy.932660753.workers.dev/": "https://registry-1.docker.io",
 };
 
+
 function routeByHosts(host) {
   if (host in routes) {
     return routes[host];
