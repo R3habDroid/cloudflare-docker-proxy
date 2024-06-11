@@ -4,7 +4,7 @@ addEventListener("fetch", (event) => {
 });
 
 const routes = {
-  "cloudflare-docker-proxy.932660753.workers.dev/": "https://registry-1.docker.io",
+  "cloudflare-docker-proxy.932660753.workers.dev": "https://registry-1.docker.io",
 };
 
 
